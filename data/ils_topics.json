@@ -1,0 +1,242 @@
+{
+  "meta": {
+    "title": "Immediate Life Support (adult) topic map",
+    "based_on": "Resuscitation Council UK ILS learning outcomes and 2025 Resuscitation Guidelines summary",
+    "sources": [
+      "https://www.resus.org.uk/training-courses/adult-life-support/ils-immediate-life-support",
+      "https://www.resus.org.uk/professional-library/2025-resuscitation-guidelines/executive-summary-main-changes-2021-guidelines"
+    ],
+    "warning": "Reference facts are written for study use and must be checked by a qualified clinician against the current RCUK ILS manual before wide use.",
+    "mastery_scale": {
+      "0": "Not seen yet",
+      "1": "Mostly wrong",
+      "2": "Partial recall",
+      "3": "Usually right",
+      "4": "Right and can explain why",
+      "5": "Mastered: right on 3 or more separate days, including scenario questions"
+    }
+  },
+  "domains": [
+    {"id": "deterioration", "name": "Recognising and treating the deteriorating patient"},
+    {"id": "prevention", "name": "Causes and prevention of cardiac arrest"},
+    {"id": "cpr_defib", "name": "Quality CPR, defibrillation and airway"},
+    {"id": "algorithm", "name": "ALS algorithm, drugs and reversible causes"},
+    {"id": "team", "name": "Non-technical skills, post-arrest care and decisions"}
+  ],
+  "topics": [
+    {
+      "id": "abcde",
+      "domain": "deterioration",
+      "name": "The ABCDE approach",
+      "objectives": ["Assess and treat in order A, B, C, D, E", "Re-assess after every intervention", "Call for help early"],
+      "key_facts": [
+        "Assess Airway, Breathing, Circulation, Disability, Exposure in order and treat each problem as you find it before moving on.",
+        "Re-assess the patient after every intervention and whenever their condition changes.",
+        "Signs of airway obstruction include see-saw (paradoxical) chest movement, noisy breathing such as stridor or gurgling, and accessory muscle use. Complete obstruction is silent.",
+        "Breathing assessment covers respiratory rate, work of breathing, SpO2, chest expansion, percussion and auscultation.",
+        "Circulation assessment covers pulse rate and rhythm, blood pressure, capillary refill time (normal is 2 seconds or less), skin colour and temperature, and urine output.",
+        "Disability covers AVPU or GCS, pupils, blood glucose, and drug causes such as opioids.",
+        "Exposure means examining the whole body for bleeding, rashes or wounds while protecting dignity and preventing heat loss."
+      ],
+      "common_mistakes": ["Skipping ahead to circulation before fixing the airway", "Forgetting to check blood glucose in D", "Not re-assessing after treatment"]
+    },
+    {
+      "id": "oxygen",
+      "domain": "deterioration",
+      "name": "Oxygen therapy and targets",
+      "objectives": ["Know SpO2 targets", "Choose the right delivery device"],
+      "key_facts": [
+        "In critical illness, give high-concentration oxygen initially using a non-rebreather mask with reservoir at 15 L/min.",
+        "The usual target SpO2 is 94 to 98 percent.",
+        "For patients at risk of hypercapnic respiratory failure, such as some people with COPD, target 88 to 92 percent.",
+        "Never withhold oxygen from a hypoxic patient in a peri-arrest or arrest situation."
+      ],
+      "common_mistakes": ["Applying the 88 to 92 percent target to every COPD patient without assessing risk", "Withholding oxygen from a critically ill hypoxic patient"]
+    },
+    {
+      "id": "news2_sbar",
+      "domain": "deterioration",
+      "name": "Early warning scores and escalation (NEWS2, SBAR)",
+      "objectives": ["Interpret NEWS2 triggers", "Escalate using a structured handover"],
+      "key_facts": [
+        "NEWS2 scores respiratory rate, SpO2, use of supplemental oxygen, systolic BP, pulse, level of consciousness or new confusion, and temperature.",
+        "A score of 3 in any single parameter needs urgent review by a clinician.",
+        "A total score of 5 or more is a key threshold for urgent response, and 7 or more needs an emergency response, often including critical care outreach.",
+        "SBAR stands for Situation, Background, Assessment, Recommendation and gives a structured way to escalate.",
+        "The 2025 guidelines emphasise early warning scores, critical care outreach, and routes for patients and families to escalate concerns."
+      ],
+      "common_mistakes": ["Ignoring a single red parameter because the total is low", "Escalating without a clear recommendation or request"]
+    },
+    {
+      "id": "causes_prevention",
+      "domain": "prevention",
+      "name": "Causes and prevention of in-hospital cardiac arrest",
+      "objectives": ["Know why in-hospital arrests happen", "Know the chain of prevention"],
+      "key_facts": [
+        "Most in-hospital cardiac arrests are preceded by a period of physiological deterioration, often hypoxia and hypotension, that is missed or poorly treated.",
+        "In UK hospitals the most common first rhythm in adult in-hospital arrest is PEA (about 52 percent), then asystole (about 20 percent), then VF/pVT (about 18 percent), per RCUK 2025 data.",
+        "Survival to discharge is much higher for shockable rhythms (about 53 percent for VF/pVT) than for PEA (about 17 percent) or asystole (about 12 percent).",
+        "The chain of prevention covers staff education, monitoring, recognition, calling for help, and an effective response.",
+        "Patients unlikely to benefit from CPR should have resuscitation decisions discussed and recorded in advance, for example with ReSPECT."
+      ],
+      "common_mistakes": ["Assuming most in-hospital arrests are VF", "Seeing arrest as sudden and unpredictable"]
+    },
+    {
+      "id": "recognise_arrest",
+      "domain": "cpr_defib",
+      "name": "Recognising cardiac arrest and the in-hospital response",
+      "objectives": ["Recognise arrest quickly", "Know the first actions in hospital"],
+      "key_facts": [
+        "Check for a response, shout for help, open the airway, and look for normal breathing for no more than 10 seconds. A trained person may check a carotid pulse at the same time.",
+        "Agonal (occasional, gasping) breathing is a sign of cardiac arrest and must not be mistaken for normal breathing.",
+        "In hospital, call the resuscitation team (for example 2222 in the UK) and send for the defibrillator and resuscitation equipment.",
+        "Start CPR immediately if there are no signs of life and attach the defibrillator as soon as possible."
+      ],
+      "common_mistakes": ["Treating agonal breaths as normal breathing", "Delaying CPR to search for a pulse for longer than 10 seconds"]
+    },
+    {
+      "id": "quality_cpr",
+      "domain": "cpr_defib",
+      "name": "High-quality chest compressions",
+      "objectives": ["Know rate, depth, ratio and recoil", "Minimise interruptions"],
+      "key_facts": [
+        "Compress in the centre of the chest (lower half of the sternum) at 100 to 120 per minute and 5 to 6 cm deep.",
+        "Allow full chest recoil after each compression and minimise interruptions.",
+        "Without an advanced airway, use a ratio of 30 compressions to 2 ventilations.",
+        "Change the person doing compressions about every 2 minutes to prevent fatigue.",
+        "Each ventilation should take about 1 second and produce visible chest rise."
+      ],
+      "common_mistakes": ["Compressing too fast or too shallow", "Leaning on the chest so it can't recoil", "Long pauses for tasks"]
+    },
+    {
+      "id": "airway",
+      "domain": "cpr_defib",
+      "name": "Airway manoeuvres, adjuncts and ventilation",
+      "objectives": ["Use simple airway manoeuvres", "Size and insert adjuncts", "Ventilate effectively"],
+      "key_facts": [
+        "Simple manoeuvres are head tilt and chin lift, or jaw thrust when cervical spine injury is suspected.",
+        "Size an oropharyngeal airway by measuring from the incisors to the angle of the jaw. Don't use one in a patient with an intact gag reflex.",
+        "A nasopharyngeal airway is often tolerated by semi-conscious patients, used with caution in suspected basal skull fracture.",
+        "A supraglottic airway such as an i-gel can be used during CPR. If it seals well, give continuous compressions with about 10 ventilations per minute.",
+        "Waveform capnography confirms airway placement, monitors CPR quality, and a sudden rise in ETCO2 can indicate ROSC.",
+        "The 2025 guidelines put greater emphasis on effective ventilation during resuscitation."
+      ],
+      "common_mistakes": ["Over-ventilating once an advanced airway is in", "Using an OPA in a patient who gags"]
+    },
+    {
+      "id": "defibrillation",
+      "domain": "cpr_defib",
+      "name": "Safe defibrillation (manual and AED)",
+      "objectives": ["Place pads correctly", "Deliver a shock safely with minimal pause"],
+      "key_facts": [
+        "Place pads in the anterolateral position: one below the right clavicle, the other at the left mid-axillary line (V6 position). The 2025 guidelines stress correct pad placement.",
+        "Keep pauses in compressions before and after a shock as short as possible, ideally under 5 seconds.",
+        "Charge the defibrillator during compressions, then pause briefly to confirm the rhythm and deliver the shock.",
+        "Remove oxygen at least 1 metre from the chest during the shock and make sure nobody is touching the patient.",
+        "Give the first biphasic shock at the energy recommended by the manufacturer (often 150 to 200 J) and consider increasing energy for later shocks if the device allows.",
+        "Resume compressions immediately after a shock without checking the rhythm or pulse.",
+        "Up to three quick successive (stacked) shocks may be considered for witnessed, monitored VF/pVT when a defibrillator is immediately available, such as in a cardiac catheter lab."
+      ],
+      "common_mistakes": ["Checking for a pulse straight after the shock", "Leaving oxygen near the chest", "Long pauses while charging"]
+    },
+    {
+      "id": "rhythms",
+      "domain": "algorithm",
+      "name": "Cardiac arrest rhythms",
+      "objectives": ["Distinguish shockable from non-shockable rhythms"],
+      "key_facts": [
+        "Shockable rhythms are ventricular fibrillation (VF) and pulseless ventricular tachycardia (pVT).",
+        "Non-shockable rhythms are pulseless electrical activity (PEA) and asystole.",
+        "PEA is organised electrical activity on the monitor without a palpable pulse or signs of life.",
+        "Check the rhythm about every 2 minutes. Only check for a pulse if there is an organised rhythm that could produce an output.",
+        "Check leads and gain before diagnosing asystole, and look for P waves because ventricular standstill may respond to pacing."
+      ],
+      "common_mistakes": ["Shocking asystole or PEA", "Calling fine VF asystole without checking leads and gain"]
+    },
+    {
+      "id": "als_algorithm",
+      "domain": "algorithm",
+      "name": "The adult ALS algorithm and drugs",
+      "objectives": ["Follow the shockable and non-shockable pathways", "Know drug doses and timing"],
+      "key_facts": [
+        "Shockable pathway: shock, then 2 minutes of CPR, then rhythm check, repeating as needed.",
+        "In shockable rhythms, give adrenaline 1 mg IV or IO after the third shock, then every 3 to 5 minutes.",
+        "In shockable rhythms, give amiodarone 300 mg IV or IO after the third shock, and a further 150 mg after the fifth shock.",
+        "In non-shockable rhythms, give adrenaline 1 mg IV or IO as soon as access is gained, then every 3 to 5 minutes. The 2025 guidelines keep early adrenaline for non-shockable rhythms.",
+        "Use IV access first. Use intraosseous (IO) access if IV access is difficult or impossible.",
+        "If ROSC occurs, begin post-resuscitation care using an ABCDE approach."
+      ],
+      "common_mistakes": ["Giving adrenaline before the third shock in VF", "Forgetting the second amiodarone dose", "Delaying adrenaline in PEA or asystole"]
+    },
+    {
+      "id": "reversible_causes",
+      "domain": "algorithm",
+      "name": "Reversible causes (4 Hs and 4 Ts)",
+      "objectives": ["List and treat the 4 Hs and 4 Ts"],
+      "key_facts": [
+        "The 4 Hs are Hypoxia, Hypovolaemia, Hypo- or hyperkalaemia and other metabolic disorders, and Hypothermia or hyperthermia.",
+        "The 4 Ts are Thrombosis (coronary or pulmonary), Tension pneumothorax, Tamponade (cardiac), and Toxins.",
+        "Consider the reversible causes during every cycle of CPR and use point-of-care ultrasound if a skilled operator is available.",
+        "If pulmonary embolism is the suspected cause, consider thrombolysis and continue CPR for 60 to 90 minutes afterwards.",
+        "The 2025 guidelines suggest considering extracorporeal CPR in specialist centres for selected refractory arrests, such as hypothermia, thrombosis or toxins."
+      ],
+      "common_mistakes": ["Only thinking of the reversible causes at the end", "Mixing up the Hs and the Ts"]
+    },
+    {
+      "id": "peri_arrest",
+      "domain": "algorithm",
+      "name": "Peri-arrest emergencies",
+      "objectives": ["Recognise and start treatment of common peri-arrest conditions"],
+      "key_facts": [
+        "Adverse features in peri-arrest arrhythmias are shock, syncope, myocardial ischaemia and heart failure.",
+        "For bradycardia with adverse features, give atropine 500 micrograms IV, repeated up to a maximum of 3 mg, and get expert help for pacing if needed.",
+        "For anaphylaxis in adults, give adrenaline 500 micrograms (0.5 mL of 1:1000) intramuscularly, repeated after 5 minutes if there is no improvement.",
+        "For hypoglycaemia in a patient who can't swallow safely, give IV glucose such as 10 percent glucose, or glucagon 1 mg IM if there is no IV access."
+      ],
+      "common_mistakes": ["Giving anaphylaxis adrenaline IV in the ward setting", "Under-dosing atropine (less than 500 micrograms)"]
+    },
+    {
+      "id": "post_rosc",
+      "domain": "team",
+      "name": "Immediate post-resuscitation care",
+      "objectives": ["Know the first priorities after ROSC"],
+      "key_facts": [
+        "After ROSC use an ABCDE approach, protect the airway, and give controlled oxygen with a target SpO2 of 94 to 98 percent.",
+        "Aim for normal carbon dioxide levels (normocapnia).",
+        "The 2025 target is a systolic blood pressure above 100 mmHg or a MAP of 60 to 65 mmHg.",
+        "Get a 12-lead ECG. Patients with ST elevation or strong suspicion of coronary occlusion should be considered for urgent coronary angiography.",
+        "Prevent fever (keep temperature at or below 37.5 degrees C) in comatose patients.",
+        "Hand over to the receiving team using a structured method."
+      ],
+      "common_mistakes": ["Giving 100 percent oxygen indefinitely after ROSC", "Forgetting the 12-lead ECG"]
+    },
+    {
+      "id": "team_skills",
+      "domain": "team",
+      "name": "Team leadership, human factors and debriefing",
+      "objectives": ["Lead or work in a resus team", "Communicate clearly"],
+      "key_facts": [
+        "A team leader allocates roles, keeps an overview, plans ahead, and avoids doing hands-on tasks if possible.",
+        "Use closed-loop communication: give a clear instruction to a named person, who confirms when it is done.",
+        "Situational awareness and sharing the mental model with the team help prevent errors.",
+        "Use a pre-shock safety check and say each step out loud.",
+        "The 2025 guidelines encourage data-driven debriefing after resuscitation attempts to improve team performance.",
+        "Families may be offered the chance to be present during resuscitation, with a staff member supporting them."
+      ],
+      "common_mistakes": ["The leader doing compressions and losing the overview", "Giving instructions to nobody in particular"]
+    },
+    {
+      "id": "decisions_ethics",
+      "domain": "team",
+      "name": "Resuscitation decisions and ethics",
+      "objectives": ["Understand DNACPR and ReSPECT", "Know when to stop"],
+      "key_facts": [
+        "A DNACPR decision applies only to CPR. All other appropriate treatment continues.",
+        "ReSPECT records a person's preferences and clinical recommendations for emergency care, including CPR.",
+        "Decisions to stop resuscitation are made by the team leader after discussion with the team, considering the patient's wishes, the cause, and the likelihood of success.",
+        "Recognise CPR-induced consciousness. The 2025 guidelines suggest managing it with sedation and analgesia given by experienced staff."
+      ],
+      "common_mistakes": ["Thinking DNACPR means no treatment at all"]
+    }
+  ]
+}
